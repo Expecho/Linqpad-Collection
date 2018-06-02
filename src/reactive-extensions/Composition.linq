@@ -1,5 +1,6 @@
 <Query Kind="Program">
   <NuGetReference>Rx-Main</NuGetReference>
+  <NuGetReference>System.Reactive</NuGetReference>
   <Namespace>System</Namespace>
   <Namespace>System.Reactive</Namespace>
   <Namespace>System.Reactive.Concurrency</Namespace>
@@ -38,6 +39,3 @@ void Main()
 	
 	subscription.Dispose();
 }
-
-
-
