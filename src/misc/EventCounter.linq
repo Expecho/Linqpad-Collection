@@ -5,7 +5,16 @@
   <Namespace>System.Threading.Tasks</Namespace>
 </Query>
 
-// https://github.com/dotnet/corefx/blob/master/src/System.Diagnostics.Tracing/documentation/EventCounterTutorial.md
+/* Demonstration of EventCounters
+
+EventCounters Provide the ability to collect statistics for very frequent events through the EventSource class.
+
+Useful links:
+- https://msdn.microsoft.com/en-us/library/system.diagnostics.tracing.eventcounter(v=vs.110).aspx
+- https://stackify.com/net-event-counters/
+- https://github.com/dotnet/corefx/issues/20331
+- https://github.com/dotnet/corefx/blob/master/src/System.Diagnostics.Tracing/documentation/EventCounterTutorial.md
+*/
 
 async Task Main()
 {
