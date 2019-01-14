@@ -1,5 +1,4 @@
 <Query Kind="Program">
-  <NuGetReference>Rx-Main</NuGetReference>
   <NuGetReference>System.Reactive</NuGetReference>
   <Namespace>System</Namespace>
   <Namespace>System.Reactive</Namespace>
